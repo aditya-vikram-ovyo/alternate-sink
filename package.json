@@ -1,0 +1,29 @@
+{
+    "name": "alternate-sink",
+    "version": "1.0.0",
+    "description": "Alternate Event Sink using Express and SQS",
+    "main": "index.js",
+    "scripts": {
+        "start": "node index.js",
+        "dev": "nodemon index.js",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "dependencies": {
+        "express": "^4.18.2",
+        "cors": "^2.8.5",
+        "dotenv": "^16.0.3",
+        "@aws-sdk/client-sqs": "^3.0.0",
+        "winston": "^3.8.2"
+    },
+    "devDependencies": {
+        "nodemon": "^2.0.20"
+    },
+    "keywords": [
+        "analytics",
+        "event-sink",
+        "sqs",
+        "express"
+    ],
+    "author": "Aditya",
+    "license": "ISC"
+}
